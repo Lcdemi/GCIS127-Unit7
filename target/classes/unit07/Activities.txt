@@ -1,0 +1,13 @@
+Expression 7 = 7;
+Expression ++ 5.6 = 6.6;
+Expression + 2 3 = 5;
+Expression + ++ 2 ++ 3 = 7;
+Expression + 2 - 4 2 = 4;
+Expression * + 2 3 - 5 3 = 10;
+Expression + - * 3 + 4 2 7 5 = 16;
+
+
+Class: Expression / Constant / Unary Expression / Increment / Decrement
+State: ? / Value / Expression / Expression / Expression
+Behavior: Evaluate / Constructor, Evaluate / Constructor, Evaluate / Constructor, Evaluate / Constructor, Evaluate
+
